@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #005C53;
+    justify-content: center;
+    font-family: 'Work Sans','Open Sans', sans-serif;   
+}
+
+section{
+    background-color: white;
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.enviar{
+    margin-top: 50px;
+    color: white;
+    background-color: #005C53;
+}
+
+.enviar:hover{
+    background-color: #02735E;
+}
+
+.erro{
+    font-size: 15px;
+    color: red;
+    margin: 20px 0px;
+}
